@@ -39,6 +39,8 @@ set autoindent
 " General mappings
 let mapleader = ","
 inoremap jj <Esc>
+nnoremap j gj " Move visually around lines
+nnoremap k gk
 
 " There is no try
 noremap <Up> <Nop>
@@ -52,8 +54,26 @@ set hlsearch
 
 " Nerd tree
 nnoremap <Leader>nt :NERDTreeToggle<CR> 
+map <F2> :NERDTreeToggle<CR>
 
 " Tabs
 :map <Leader>tp :tabprevious<cr>
 :map <Leader>tn :tabnext<cr>
 :map <Leader>tt :tabnew<cr>
+
+" Undo/Backup/Swap
+set undofile
+set undodir=$HOME/.vim/undo
+set undolevels=1000
+set undoreload=10000
+set nobackup
+set noswapfile
+
+" Search
+set ignorecase
+set smartcase
+set incsearch
+nnoremap <leader><space> :nohlsearch<CR>
+
+" Clipboard
+set clipboard=unnamed,unnamedplus
