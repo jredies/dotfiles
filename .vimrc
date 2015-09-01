@@ -22,6 +22,7 @@ set wildmenu
 set visualbell
 set t_vb=
 set mouse=a
+set title
 
 " Syntax
 syntax enable
@@ -35,6 +36,7 @@ set smarttab
 set expandtab
 set softtabstop=4
 set autoindent
+set shiftround
 
 " General mappings
 let mapleader = ","
