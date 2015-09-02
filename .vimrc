@@ -41,7 +41,7 @@ set shiftround
 
 " General mappings
 let mapleader = ","
-inoremap jj <Esc>
+inoremap ;; <Esc>
 nnoremap j gj " Move visually around lines
 nnoremap k gk
 

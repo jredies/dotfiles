@@ -7,9 +7,7 @@ set clipboard=unnamed,unnamedplus
 
 " General mappings
 let mapleader = ","
-inoremap jj <Esc>
-nnoremap j gj " Move visually around lines
-nnoremap k gk
+inoremap ;; <Esc>
 
 " There is no try
 noremap <Up> <Nop>
