@@ -1,0 +1,9 @@
+# Kill the debugger (and the process which jumped into the debugger!)
+alias kk import os; os.system('kill -9 %d' % os.getpid())
+
+# Next and list, and step and list.
+alias nl n;;l
+alias sl s;;l
+
+# Always list the current line, even if you already listed it
+alias ll u;;d;;l
