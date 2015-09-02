@@ -1,0 +1,19 @@
+set tabstop=8
+set expandtab
+set shiftwidth=4
+set softtabstop=4
+
+set clipboard=unnamed,unnamedplus
+
+" General mappings
+let mapleader = ","
+inoremap jj <Esc>
+nnoremap j gj " Move visually around lines
+nnoremap k gk
+
+" There is no try
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
+inoremap <Esc> <Nop>

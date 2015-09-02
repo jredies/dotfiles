@@ -23,6 +23,7 @@ set visualbell
 set t_vb=
 set mouse=a
 set title
+set t_Co=256
 
 " Syntax
 syntax enable
@@ -79,3 +80,8 @@ nnoremap <leader><space> :nohlsearch<CR>
 
 " Clipboard
 set clipboard=unnamed,unnamedplus
+
+" GUI
+set guioptions=egmrt
+set guifont=Inconsolata-dz\ for\ Powerline\ 13 
+let &guicursor = &guicursor . ",a:blinkon0" " No Blink
