@@ -1,4 +1,4 @@
-set nocompatible 
+set nocompatible
 filetype off
 
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -50,7 +50,6 @@ noremap <Up> <Nop>
 noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
-inoremap <Esc> <Nop>
 
 " Search settings
 set hlsearch

@@ -7,3 +7,5 @@ alias sl s;;l
 
 # Always list the current line, even if you already listed it
 alias ll u;;d;;l
+
+alias pltim import matplotlib.pyplot as plt; from matplotlib.pyplot import plot; plt.ion()
