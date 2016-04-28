@@ -1,31 +1,31 @@
-filetype off
+call plug#begin('~/.config/nvim/plugged')
 
-set rtp+=~/.config/nvim/bundle/Vundle.vim
-call vundle#begin()
+Plug 'gmarik/Vundle.vim'
 
-Plugin 'gmarik/Vundle.vim'
+Plug 'altercation/vim-colors-solarized'
 
-Plugin 'altercation/vim-colors-solarized'
+Plug 'scrooloose/nerdtree'
+Plug 'jistr/vim-nerdtree-tabs'
+"Plug 'Xuyuanp/nerdtree-git-plugin'
 
-Plugin 'scrooloose/nerdtree'
-Plugin 'jistr/vim-nerdtree-tabs'
-"Plugin 'Xuyuanp/nerdtree-git-plugin'
+Plug 'scrooloose/nerdcommenter'
+Plug 'vim-scripts/indentpython.vim'
 
-Plugin 'scrooloose/nerdcommenter'
-Plugin 'vim-scripts/indentpython.vim'
+Plug 'kien/ctrlp.vim'
+Plug 'tpope/vim-fugitive'
+Plug 'mileszs/ack.vim'
+Plug 'easymotion/vim-easymotion'
+Plug 'davidhalter/jedi-vim'
+Plug 'scrooloose/syntastic'
 
-Plugin 'kien/ctrlp.vim'
-Plugin 'tpope/vim-fugitive'
-Plugin 'mileszs/ack.vim'
-Plugin 'easymotion/vim-easymotion'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
-Plugin 'davidhalter/jedi-vim'
-Plugin 'scrooloose/syntastic'
-
+Plug 'neovim/python-client'
+Plug 'bfredl/nvim-ipy'
 "Plugin 'klen/python-mode'
 
-call vundle#end()
-filetype plugin indent on
+call plug#end()
 
 source ~/.config/nvim/general.vim
 source ~/.config/nvim/indent.vim
@@ -34,3 +34,4 @@ source ~/.config/nvim/keys.vim
 source ~/.config/nvim/python.vim
 source ~/.config/nvim/split.vim
 source ~/.config/nvim/nerdtree.vim
+source ~/.config/nvim/airline.vim
