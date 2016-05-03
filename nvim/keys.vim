@@ -14,3 +14,7 @@ noremap <Right> <NOP>
 
 " Search
 nnoremap <leader><space> :nohlsearch<CR>
+
+" Indent
+vnoremap < <gv
+vnoremap > >gv

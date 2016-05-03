@@ -23,6 +23,7 @@ Plug 'vim-airline/vim-airline-themes'
 
 Plug 'neovim/python-client'
 Plug 'bfredl/nvim-ipy'
+Plug 'kassio/neoterm'
 "Plugin 'klen/python-mode'
 
 call plug#end()
@@ -35,3 +36,5 @@ source ~/.config/nvim/python.vim
 source ~/.config/nvim/split.vim
 source ~/.config/nvim/nerdtree.vim
 source ~/.config/nvim/airline.vim
+source ~/.config/nvim/startup.vim
+source ~/.config/nvim/terminal.vim
